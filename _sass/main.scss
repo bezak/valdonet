@@ -1,27 +1,38 @@
+body {
+
+}
+
 .page-container {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     flex-flow: column;
-    align-items: center; }
+    align-items: center; 
+}
   
-  h1 {
-    font-size: 800%; }
+h1 {
+    font-size: 800%; 
+}
   
-  h2 {
-    font-size: 260%; }
+h2 {
+    font-size: 260%; 
+}
   
-  h3 {
+h3 {
     margin-top: 40px;
-    /*color: grey;*/ }
+    /*color: grey;*/ 
+}
   
-  .links {
+.links {
     margin-top: 40px;
     font-size: 160%;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    line-height: 200%; }
-  
-  
+    line-height: 200%; 
+}  
+
+.current {
+    color: green;
+}
